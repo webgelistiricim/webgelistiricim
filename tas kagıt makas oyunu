@@ -1,0 +1,37 @@
+import random
+secenek = ["tas", "kagıt","makas"]
+tas = secenek[0]
+kagıt = secenek[1]
+makas = secenek[2]
+print("Taş,kağıt, Makas oyununa hoş geldiniz oyunu bitirmek için q tusuna basınız")
+
+while True:
+    secim = input("Taş mı kağıt mı makas mı ?")
+
+    bil_secim = random.choice(secenek)
+    if secim==tas:
+
+        if bil_secim==kagıt:
+
+            print("Bilgisayarın Seçimi: Taş Sonuc: Berabere")
+    elif bil_secim==kagıt:
+        print("Bilgisayarın Seçimi: Kagıt Sonuc: Kaybettiniz")
+    else:
+        print("Bilgisayarın Seçimi: Makas Sonuc: Kazandınız")
+    if secim==kagıt:
+        if bil_secim==tas:
+            print("Bilgisayarın Seçimi: Taş Sonuc: Kazandınız")
+    elif bil_secim==kagıt:
+            print("Bilgisayarın Seçimi: Kagıt Sonuc: Berabere")
+    else:
+            print("Bilgisayarın Secimi: Makas Sonuc: Kaybettiniz")
+    if secim==makas:
+        if bil_secim==tas:
+            print("Bilgisayarın Secimi: Taş Sonuc: Kaybettiniz")
+    elif bil_secim==kagıt:
+        print("Bilgisayarın Secimi: Kagıt Sonuc: Kazandınız")
+    else:
+        print("Bilgisayarın Secimi: Makas Sonuc: Berabere")
+    if secim=="q":
+        print("Çıkış yapılıyor...")
+        break
