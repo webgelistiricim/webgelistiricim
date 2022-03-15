@@ -1,0 +1,26 @@
+import turtle
+
+turtle.speed(1)
+turtle.bgcolor("black")
+turtle.penup()
+turtle.goto(-50,60)
+turtle.pendown()
+turtle.color("blue")
+turtle.begin_fill()
+turtle.goto(100,100)
+turtle.goto(100,-100)
+
+turtle.goto(-50,-60)
+turtle.goto(-50,60)
+turtle.end_fill()
+turtle.color("black")
+turtle.goto(15,100)
+
+turtle.color("black")
+turtle.width(10)
+turtle.goto(15,-100)
+turtle.penup()
+turtle.goto(100,0)
+turtle.pendown()
+turtle.goto(-100,0)
+turtle.done()
