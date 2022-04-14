@@ -1,0 +1,22 @@
+def yasHesapla(dogumyili):
+    return 2022 - dogumyili
+def emeklilikHesapla(dogumyili,isim):
+    '''
+    DOCSTRİNG : Dogum yiliniza göre emekliliginize kac yil kaldı
+    INPUT : Dogum yili
+    OUTPUT : Hesaplanan yil bilgisi
+    '''
+    yas = yasHesapla(dogumyili)
+    emeklilik = 65 - yas
+
+    if emeklilik > 0:
+        print(f"Emekliliğinize {emeklilik} yıl kaldı. {isim}")
+    else:
+        print(f"Zaten Emeklisiniz {isim} ")
+
+emeklilikHesapla(2000, "Batu")iiiiiiiiiiiiiiiiiiiiiiii
+emeklilikHesapla(1969,"Seray")
+emeklilikHesapla(2004,"Mert")
+emeklilikHesapla(1950,"Ahmet")
+
+print(help(emeklilikHesapla))
