@@ -1,0 +1,1 @@
+Öylesine kafamdan esinlenip yaptığım bir projedir. Tamamen eğlence amaçlı yapılmış bir uygulamadır.
