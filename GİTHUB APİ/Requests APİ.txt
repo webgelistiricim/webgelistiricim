@@ -1,0 +1,2 @@
+Bu projemde python'da requests modülünü kullanarak ufak bir github apisi yaptım 
+demo amaçlıdır.
