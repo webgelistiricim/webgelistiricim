@@ -1,0 +1,1 @@
+Bu proje de İMDB sitesinden veri kazma işlemi yapılmıştır deneme amaçlıdır.
